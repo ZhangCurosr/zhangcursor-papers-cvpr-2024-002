@@ -4,5 +4,33 @@
  "title": "HMD-Poser-On-Device-Real-time-Human-Motion-Tracking-from-Sca",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6b3cbedf-e5d9-45c5-8b5e-c7ad9bd13e25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6b3cbedf-e5d9-45c5-8b5e-c7ad9bd13e25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:23:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human motion tracking",
+    "HMD",
+    "IMU",
+    "real-time inference",
+    "SMPL",
+    "LSTM-Transformer",
+    "on-device",
+    "sparse observations"
+   ],
+   "field": "VR/AR 人体运动重建与追踪",
+   "innovations": [
+    "首个支持 HMD 与可扩展 IMU 输入的统一实时追踪框架",
+    "轻量级 TSFL 网络（LSTM+Transformer）实现 HMD 端 90 FPS 推理",
+    "在线体型估计与相对手部表示提升关节位置精度"
+   ],
+   "benchmarks": [
+    "AMASS Protocol 1",
+    "AMASS Protocol 2",
+    "Free-dancing 自建数据集"
+   ]
+  }
+ }
 }

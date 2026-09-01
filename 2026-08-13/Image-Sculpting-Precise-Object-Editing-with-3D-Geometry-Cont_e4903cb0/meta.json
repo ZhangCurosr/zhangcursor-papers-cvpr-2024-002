@@ -4,5 +4,29 @@
  "title": "Image-Sculpting-Precise-Object-Editing-with-3D-Geometry-Cont",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6fac46af-7fd6-41a5-a286-379453798542.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6fac46af-7fd6-41a5-a286-379453798542.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:25:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image editing",
+    "3D geometry control",
+    "diffusion model",
+    "single-view reconstruction",
+    "coarse-to-fine enhancement",
+    "feature injection"
+   ],
+   "field": "3D-aware图像生成与编辑",
+   "innovations": [
+    "提出Image Sculpting框架，将2D图像转为3D网格后利用传统图形学变形工具进行精确几何操控，再通过扩散增强还原高保真2D图像",
+    "将Plug-and-Play特征注入机制从语义布局控制迁移至几何保真控制，结合One-shot DreamBooth与Depth Control实现纹理-几何双重保持",
+    "构建SculptingBench基准并提出D-RMSE指标，系统评估六类精确3D编辑任务"
+   ],
+   "benchmarks": [
+    "SculptingBench"
+   ]
+  }
+ }
 }

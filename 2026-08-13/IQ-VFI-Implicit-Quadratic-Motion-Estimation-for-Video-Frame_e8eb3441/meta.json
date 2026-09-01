@@ -4,5 +4,32 @@
  "title": "IQ-VFI-Implicit-Quadratic-Motion-Estimation-for-Video-Frame",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e4e9349c-3c7f-4d72-8112-c9e66fbd32ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e4e9349c-3c7f-4d72-8112-c9e66fbd32ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:24:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Frame Interpolation",
+    "Quadratic Motion Estimation",
+    "Knowledge Distillation",
+    "Optical Flow",
+    "Implicit Acceleration",
+    "Two-stage VFI"
+   ],
+   "field": "视频帧插值",
+   "innovations": [
+    "隐式加速度估计网络(IANet)通过多帧时空信息预测加速度先验",
+    "隐式运动调制模块(IMM)将线性光流渐进转化为二次光流",
+    "自适应蒸馏掩码引导任务导向的光流与加速度知识蒸馏"
+   ],
+   "benchmarks": [
+    "Vimeo90K",
+    "UCF101",
+    "SNU-FILM",
+    "Xiph"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Learning-Spatial-Adaptation-and-Temporal-Coherence-in-Diffus",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/fc8a7ca3-5801-4bf7-a595-0666dc248987.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/fc8a7ca3-5801-4bf7-a595-0666dc248987.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:25:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频超分辨率",
+    "扩散模型",
+    "时空一致性",
+    "特征适配",
+    "视频重建"
+   ],
+   "field": "视频超分辨率",
+   "innovations": [
+    "提出SFA模块实现像素级仿射参数调制以增强空间保真度",
+    "设计TFA模块基于tubelet的自/交叉注意力实现时序特征对齐",
+    "冻结预训练扩散模型仅优化适配模块解决视频超分随机性问题"
+   ],
+   "benchmarks": [
+    "REDS4",
+    "Vid4"
+   ]
+  }
+ }
 }

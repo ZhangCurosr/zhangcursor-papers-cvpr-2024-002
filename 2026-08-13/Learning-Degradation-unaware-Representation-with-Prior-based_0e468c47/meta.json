@@ -4,5 +4,32 @@
  "title": "Learning-Degradation-unaware-Representation-with-Prior-based",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:12:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/f314fa9b-76ae-4dc7-81ea-b9f4a02288a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/f314fa9b-76ae-4dc7-81ea-b9f4a02288a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:25:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Blind Face Restoration",
+    "Latent Diffusion",
+    "Vision Transformer",
+    "Face Prior",
+    "Degradation-unaware Representation",
+    "Cross-Attention"
+   ],
+   "field": "盲脸恢复与图像修复",
+   "innovations": [
+    "在特征潜在空间学习退化无关 query 的扩散正则化模块",
+    "基于潜在字典 top-d 近邻全局映射构建 key/value 的先验增强机制",
+    "小波低频注入引导反向扩散以保留输入语义的解耦设计"
+   ],
+   "benchmarks": [
+    "CelebA-Test",
+    "WIDER-Hard/Medium",
+    "LFW-Test",
+    "WebPhoto-Test"
+   ]
+  }
+ }
 }

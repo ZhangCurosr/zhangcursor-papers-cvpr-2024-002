@@ -4,5 +4,33 @@
  "title": "Masked-and-Shuffled-Blind-Spot-Denoising-for-Real-World-Imag",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:13:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/943965b2-d9e5-4893-b910-71e6d3ce0d55.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/943965b2-d9e5-4893-b910-71e6d3ce0d55.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:27:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "blind spot denoising",
+    "self-supervised image denoising",
+    "single-image denoising",
+    "correlated noise",
+    "local pixel shuffling",
+    "adaptive masking",
+    "test-time training"
+   ],
+   "field": "无监督/自监督图像复原",
+   "innovations": [
+    "通过高低掩码噪声估计差ε自适应选择掩码比例以匹配噪声空间相关性",
+    "利用伪干净图像分割平坦区并实施局部瓦片内像素置换LPS以破坏噪声相关性",
+    "单图去噪方法在FMDD上同时超越单图与数据集基线达到SOTA"
+   ],
+   "benchmarks": [
+    "SIDD validation",
+    "SIDD benchmark",
+    "FMDD",
+    "PolyU"
+   ]
+  }
+ }
 }

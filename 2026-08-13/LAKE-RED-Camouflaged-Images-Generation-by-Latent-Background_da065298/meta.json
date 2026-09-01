@@ -4,5 +4,33 @@
  "title": "LAKE-RED-Camouflaged-Images-Generation-by-Latent-Background",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:13:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/ff1d06d7-2ec0-4ed0-9aae-0a7c45536dfc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/ff1d06d7-2ec0-4ed0-9aae-0a7c45536dfc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:25:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "camouflaged image generation",
+    "latent diffusion model",
+    "knowledge retrieval",
+    "image inpainting",
+    "synthetic data",
+    "object detection"
+   ],
+   "field": "伪装视觉感知 / 生成模型",
+   "innovations": [
+    "首次提出零背景输入的伪装图像生成范式，无需人工指定背景",
+    "首个检索与推理显式分离的知识增强扩散模型，利用VQ-VAE码本作为隐式背景知识库",
+    "通过局部特征提取和背景重建损失显著提升前景-背景纹理一致性"
+   ],
+   "benchmarks": [
+    "COD10K",
+    "CAMO",
+    "NC4K",
+    "DUTS",
+    "COCO2017"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "MFP-Making-Full-Use-of-Probability-Maps-for-Interactive-Imag",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/771f9ef2-99cc-403f-b473-210993a3e510.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/771f9ef2-99cc-403f-b473-210993a3e510.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:26:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "交互图像分割",
+    "概率图调制",
+    "点击交互",
+    "递归训练",
+    "Late Fusion"
+   ],
+   "field": "交互视觉分割",
+   "innovations": [
+    "提出概率图调制机制充分利用历史预测形状信息",
+    "设计Late Fusion融合策略强化概率特征影响",
+    "开发递归训练方案端到端学习完整交互流程"
+   ],
+   "benchmarks": [
+    "GrabCut",
+    "Berkeley",
+    "DAVIS",
+    "SBD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "HumanGaussian-Text-Driven-3D-Human-Generation-with-Gaussian",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/b7675360-5b93-4898-9551-0d4d30f14ae1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/b7675360-5b93-4898-9551-0d4d30f14ae1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:24:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Text-to-3D",
+    "Human Generation",
+    "Score Distillation Sampling",
+    "Diffusion Model"
+   ],
+   "field": "文本驱动3D人体生成",
+   "innovations": [
+    "提出Structure-Aware SDS联合优化人体外观与几何",
+    "设计退火负提示引导解决SDS过饱和问题",
+    "基于SMPL-X先验初始化高斯中心并引入尺寸条件剪枝消除漂浮伪影"
+   ],
+   "benchmarks": [
+    "CLIP Score",
+    "Aesthetic Score",
+    "HPSv2",
+    "User Study (Texture/Geometry/Text Alignment)"
+   ]
+  }
+ }
 }

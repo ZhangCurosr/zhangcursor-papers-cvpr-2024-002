@@ -4,5 +4,33 @@
  "title": "HOI-M-sup-3-sup-Capture-Multiple-Humans-and-Objects-Interact",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/d5a2180f-c4dc-4dba-bd78-e58bc7d819f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/d5a2180f-c4dc-4dba-bd78-e58bc7d819f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:23:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human-object interaction",
+    "multi-person motion capture",
+    "diffusion generation",
+    "inertial tracking",
+    "3D pose estimation",
+    "dataset"
+   ],
+   "field": "多主体人机交互感知与生成",
+   "innovations": [
+    "首个多人多物高精度3D交互数据集HOI-M³",
+    "单目一阶段多HOI捕获基线",
+    "面向多主体联合表征的扩散生成模型"
+   ],
+   "benchmarks": [
+    "HOI-M³",
+    "BEHAVE",
+    "InterCap",
+    "PHOSA",
+    "CHORE"
+   ]
+  }
+ }
 }

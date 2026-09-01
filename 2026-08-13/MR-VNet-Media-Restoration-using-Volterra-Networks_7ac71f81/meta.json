@@ -4,5 +4,34 @@
  "title": "MR-VNet-Media-Restoration-using-Volterra-Networks",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e660068d-e237-461c-9331-c915544eddce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e660068d-e237-461c-9331-c915544eddce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:27:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Volterra Network",
+    "Image Restoration",
+    "Video Restoration",
+    "NAFNet",
+    "Non-linear Activation Free",
+    "Higher-order Convolution",
+    "Image Denoising",
+    "Image Deblurring"
+   ],
+   "field": "图像/视频恢复",
+   "innovations": [
+    "提出基于Volterra级数的高阶卷积网络MR-VNet，用二阶卷积替代传统激活函数引入非线性",
+    "设计无损(LLA)和有损低秩近似(LYA)两种实现，证明NAFNet是Q=1的特例",
+    "在GoPro/SIDD/REDS/CRVD等数据集上达到SOTA，同时保持极低GMACs"
+   ],
+   "benchmarks": [
+    "GoPro",
+    "REDS",
+    "SIDD",
+    "CRVD"
+   ]
+  }
+ }
 }

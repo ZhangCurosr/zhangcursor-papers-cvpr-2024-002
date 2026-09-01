@@ -4,5 +4,31 @@
  "title": "Hyper-MD-Mesh-Denoising-with-Customized-Parameters-Aware-of",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/1bebb231-ab89-4f82-a90b-c125837b1e3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/1bebb231-ab89-4f82-a90b-c125837b1e3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:24:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "网格去噪",
+    "超网络",
+    "法向量估计",
+    "几何处理",
+    "深度学习方法"
+   ],
+   "field": "3D几何处理",
+   "innovations": [
+    "首次将超网络引入网格去噪，实现面片级参数动态定制",
+    "设计双角度表征噪声强度和几何特征，通过过滤网格代理稳定估计",
+    "构建粗粒度基线+细粒度偏移的参数定制机制，从12类候选模型选择微调"
+   ],
+   "benchmarks": [
+    "SynData",
+    "Kinect系列数据集",
+    "E_a法向量角度误差",
+    "E_v Hausdorff距离"
+   ]
+  }
+ }
 }

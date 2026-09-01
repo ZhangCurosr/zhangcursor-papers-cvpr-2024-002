@@ -4,5 +4,30 @@
  "title": "GoMAvatar-Efficient-Animatable-Human-Modeling-from-Monocular",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/57ffdf14-d7f2-417e-b6aa-4cb04fc6ff0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/57ffdf14-d7f2-417e-b6aa-4cb04fc6ff0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:22:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数字人重建",
+    "单目视频",
+    "Gaussian Splatting",
+    "可变形网格",
+    "实时渲染",
+    "动画化avatar"
+   ],
+   "field": "神经渲染与数字人建模",
+   "innovations": [
+    "提出Gaussians-on-Mesh混合表示，将3D Gaussian绑定于三角网格面实现显式正向形变",
+    "设计伪漫反射/伪阴影双通道分解渲染，兼顾外观质量与视角相关光照",
+    "端到端可微分训练GoM，兼容OpenGL图形管线，内存仅3.63MB/主体"
+   ],
+   "benchmarks": [
+    "ZJU-MoCap",
+    "PeopleSnapshot"
+   ]
+  }
+ }
 }

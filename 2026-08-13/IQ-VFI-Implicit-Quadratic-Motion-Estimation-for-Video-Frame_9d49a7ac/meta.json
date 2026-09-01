@@ -4,5 +4,31 @@
  "title": "IQ-VFI-Implicit-Quadratic-Motion-Estimation-for-Video-Frame",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 05:40:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e4e9349c-3c7f-4d72-8112-c9e66fbd32ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e4e9349c-3c7f-4d72-8112-c9e66fbd32ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:24:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频帧插值",
+    "二次运动估计",
+    "知识蒸馏",
+    "光流估计",
+    "隐式加速度"
+   ],
+   "field": "视频帧插值",
+   "innovations": [
+    "提出隐式加速度估计网络（IANet）从双帧间挖掘潜在加速度先验，将线性运动调制为二次运动",
+    "设计掩码感知的隐式运动蒸馏损失（L_IM），仅在插值误差区域指导学生对齐教师运动流"
+   ],
+   "benchmarks": [
+    "Vimeo90K",
+    "UCF101",
+    "SNU-FILM",
+    "Xiph-2K",
+    "Xiph-4K"
+   ]
+  }
+ }
 }

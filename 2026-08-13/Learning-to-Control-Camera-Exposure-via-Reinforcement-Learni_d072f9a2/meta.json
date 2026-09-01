@@ -4,5 +4,31 @@
  "title": "Learning-to-Control-Camera-Exposure-via-Reinforcement-Learni",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/64221d82-605b-4220-90e4-75dc55a5d339.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/64221d82-605b-4220-90e4-75dc55a5d339.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:25:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "相机曝光控制",
+    "深度强化学习",
+    "实时视觉",
+    "域随机化",
+    "课程学习",
+    "嵌入式AI"
+   ],
+   "field": "相机自动曝光控制",
+   "innovations": [
+    "轻量级向量强度历史状态替代CNN特征实现1ms CPU推理",
+    "防闪烁+图像属性复合奖励配合静态-动态课程学习实现5帧快速收敛",
+    "空间域随机化达成暗室训练到真实场景零样本泛化"
+   ],
+   "benchmarks": [
+    "Exposure Control Dataset",
+    "SIFT特征提取数量",
+    "YOLOv5目标检测mAP提升"
+   ]
+  }
+ }
 }

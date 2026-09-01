@@ -4,5 +4,29 @@
  "title": "MaskPLAN-Masked-Generative-Layout-Planning-from-Partial-Inpu",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e0f0e46e-748e-424e-a670-b06e32dd7e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/e0f0e46e-748e-424e-a670-b06e32dd7e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:26:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "layout generation",
+    "masked autoencoder",
+    "floorplan synthesis",
+    "user-guided generation",
+    "graph transformer",
+    "architectural design"
+   ],
+   "field": "建筑信息生成与空间布局规划",
+   "innovations": [
+    "动态掩码机制支持任意比例部分输入",
+    "五属性联合学习通过交叉注意力实现跨属性校准",
+    "全局条件先贯穿生成全流程确保设计可行性"
+   ],
+   "benchmarks": [
+    "RPLAN"
+   ]
+  }
+ }
 }

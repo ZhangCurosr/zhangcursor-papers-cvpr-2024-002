@@ -4,5 +4,30 @@
  "title": "Multi-scale-Dynamic-and-Hierarchical-Relationship-Modeling-f",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/949bafc1-655a-4774-980e-3800b20376ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/949bafc1-655a-4774-980e-3800b20376ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:28:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Action Unit Recognition",
+    "Facial Dynamics",
+    "Multi-scale Modeling",
+    "Hierarchical Relationship",
+    "Spatio-temporal Learning",
+    "Graph Attention"
+   ],
+   "field": "面部动作单元识别",
+   "innovations": [
+    "多尺度时序差分自适应加权模块（MFD），首次按AU异质性分别建模不同空间尺度的面部动态",
+    "两阶段分层时空关系建模（HSR），先局部后跨区域显式学习AU层级依赖",
+    "在BP4D和DISFA上同时达到SOTA，MFD与HSR模块互补贡献验证充分"
+   ],
+   "benchmarks": [
+    "BP4D",
+    "DISFA"
+   ]
+  }
+ }
 }

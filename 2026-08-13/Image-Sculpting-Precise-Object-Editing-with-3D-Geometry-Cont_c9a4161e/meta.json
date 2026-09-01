@@ -4,5 +4,10 @@
  "title": "Image-Sculpting-Precise-Object-Editing-with-3D-Geometry-Cont",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6fac46af-7fd6-41a5-a286-379453798542.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6fac46af-7fd6-41a5-a286-379453798542.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:25:38",
+  "chunks": 1
+ }
 }

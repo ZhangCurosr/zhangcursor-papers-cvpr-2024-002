@@ -4,5 +4,34 @@
  "title": "HEAL-SWIN-A-Vision-Transformer-On-The-Sphere",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:13:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/54950d60-f8bb-4962-ae73-77ca0f21046f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/54950d60-f8bb-4962-ae73-77ca0f21046f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:22:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HEALPix",
+    "Vision Transformer",
+    "球面深度学习",
+    "鱼眼图像",
+    "语义分割",
+    "深度估计",
+    "SWIN Transformer",
+    "自动驾驶"
+   ],
+   "field": "球面计算机视觉",
+   "innovations": [
+    "将 HEALPix 等面积嵌套网格与 SWIN Transformer 的层次结构系统性结合，实现高效球面 attention",
+    "提出网格平移与螺旋平移两种球面窗口移位策略，螺旋平移在消融中更优",
+    "首次将自动驾驶鱼眼图像视为无畸变球面信号，在 SynWoodScape 和 WoodScape 上全面超越平面 SWIN"
+   ],
+   "benchmarks": [
+    "WoodScape",
+    "SynWoodScape",
+    "Stanford 2D-3D-S",
+    "spherical MNIST"
+   ]
+  }
+ }
 }

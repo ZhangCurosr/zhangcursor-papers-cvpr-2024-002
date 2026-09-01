@@ -4,5 +4,31 @@
  "title": "MAPSeg-Unified-Unsupervised-Domain-Adaptation-for-Heterogene",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/846ac52c-cc8b-41f0-9439-dbd903c879ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/846ac52c-cc8b-41f0-9439-dbd903c879ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:26:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "unsupervised domain adaptation",
+    "masked autoencoding",
+    "pseudo-labeling",
+    "federated learning",
+    "test-time adaptation",
+    "3D medical image segmentation",
+    "global-local collaboration"
+   ],
+   "field": "医学图像无监督域适应",
+   "innovations": [
+    "统一三种UDA场景（集中式/联邦式/测试时）的3D分割框架",
+    "3D多尺度MAE预训练与掩码伪标签的协同适配",
+    "无需目标标签的模型选择Score指标"
+   ],
+   "benchmarks": [
+    "Brain MRI cross-sequence/cross-site/cross-age segmentation",
+    "MMWHS cardiac CT-to-MRI segmentation"
+   ]
+  }
+ }
 }

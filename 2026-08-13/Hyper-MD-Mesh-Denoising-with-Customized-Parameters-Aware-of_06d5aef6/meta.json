@@ -4,5 +4,32 @@
  "title": "Hyper-MD-Mesh-Denoising-with-Customized-Parameters-Aware-of",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 05:40:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/1bebb231-ab89-4f82-a90b-c125837b1e3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/1bebb231-ab89-4f82-a90b-c125837b1e3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:24:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mesh Denoising",
+    "Hyper-Network",
+    "Geometric Deep Learning",
+    "3D Mesh Processing",
+    "Adaptive Filtering",
+    "Surface Reconstruction"
+   ],
+   "field": "几何深度学习/三维网格处理",
+   "innovations": [
+    "首次将超网络引入网格去噪实现面片级参数动态定制",
+    "提出基于滤波代理的双角度(α^n/α^g)感知噪声强度与几何特征",
+    "设计粗粒度候选基底+细粒度偏移的高效参数构造机制"
+   ],
+   "benchmarks": [
+    "SynData",
+    "Kv1Data",
+    "Kv2Data",
+    "K-FData"
+   ]
+  }
+ }
 }

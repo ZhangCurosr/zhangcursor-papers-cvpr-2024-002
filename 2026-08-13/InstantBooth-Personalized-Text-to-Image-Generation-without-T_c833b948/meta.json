@@ -4,5 +4,32 @@
  "title": "InstantBooth-Personalized-Text-to-Image-Generation-without-T",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/4a31da8a-9cf4-40ed-925f-83b1419575d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/4a31da8a-9cf4-40ed-925f-83b1419575d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:18:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化文本到图像生成",
+    "无需测试时微调",
+    "概念编码器",
+    "适配器层",
+    "概念归一化",
+    "Diffusion Model"
+   ],
+   "field": "个性化文本到图像生成",
+   "innovations": [
+    "无需测试时微调的个性化生成框架，将图像编码为全局嵌入替代在线优化",
+    "双编码器设计：Concept Encoder 提取全局语义 + Patch Encoder 提取局部细节",
+    "带门控的适配器层与概念令牌归一化，平衡身份保持与语言对齐"
+   ],
+   "benchmarks": [
+    "PPR10K",
+    "Textual Inversion",
+    "DreamBooth",
+    "ELITE"
+   ]
+  }
+ }
 }

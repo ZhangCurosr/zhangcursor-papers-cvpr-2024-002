@@ -4,5 +4,10 @@
  "title": "Predicated-Diffusion-Predicate-Logic-Based-Attention-Guidanc",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/8f75c674-bd19-4d80-928c-b3b18dc817a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/8f75c674-bd19-4d80-928c-b3b18dc817a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:20:39",
+  "chunks": 1
+ }
 }

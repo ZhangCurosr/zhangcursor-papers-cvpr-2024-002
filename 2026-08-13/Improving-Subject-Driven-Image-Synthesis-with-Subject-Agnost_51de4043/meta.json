@@ -4,5 +4,31 @@
  "title": "Improving-Subject-Driven-Image-Synthesis-with-Subject-Agnost",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/556f4602-eab4-44ab-a309-facba3f44824.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/556f4602-eab4-44ab-a309-facba3f44824.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:18:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "subject-driven image synthesis",
+    "classifier-free guidance",
+    "text-to-image",
+    "personalization",
+    "content alignment",
+    "diffusion models"
+   ],
+   "field": "主题驱动图像合成",
+   "innovations": [
+    "提出SAG无需重训即可平衡主题保持与文本对齐",
+    "设计DCFG采用时间变权重动态抑制主题信息",
+    "提供通用的主题无关嵌入构建方法适配多类方法"
+   ],
+   "benchmarks": [
+    "CLIP-T",
+    "CLIP-I",
+    "DINO"
+   ]
+  }
+ }
 }

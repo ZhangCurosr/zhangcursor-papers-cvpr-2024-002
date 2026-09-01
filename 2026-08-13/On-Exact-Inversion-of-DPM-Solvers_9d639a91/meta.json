@@ -4,5 +4,32 @@
  "title": "On-Exact-Inversion-of-DPM-Solvers",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:13:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/3e06216d-29b8-4afd-aa52-1bdc4d8aaff6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/3e06216d-29b8-4afd-aa52-1bdc4d8aaff6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:19:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DPM-Solver",
+    "diffusion inversion",
+    "backward Euler",
+    "classifier-free guidance",
+    "tree-ring watermark",
+    "latent diffusion model",
+    "image editing"
+   ],
+   "field": "扩散模型可逆性与图像编辑",
+   "innovations": [
+    "提出基于后向Euler+梯度下降的DDIM精确反演算法，支持大classifier-free guidance",
+    "提出高阶DPM-Solver的高阶项近似反演策略，首次实现DPM-Solver++(2M)的精确反演",
+    "提出VAE解码器的梯度下降伪逆，降低LDM反演重建误差下界"
+   ],
+   "benchmarks": [
+    "ImageNet64",
+    "LDM (Stable Diffusion v1.4)",
+    "Tree-Ring Watermark classification"
+   ]
+  }
+ }
 }

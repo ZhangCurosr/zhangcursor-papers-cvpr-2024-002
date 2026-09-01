@@ -4,5 +4,29 @@
  "title": "Puff-Net-Efficient-Style-Transfer-with-Pure-Content-and-Styl",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/761afb79-4590-43a8-a3fc-9c84dc4d4933.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/761afb79-4590-43a8-a3fc-9c84dc4d4933.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:21:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "风格迁移",
+    "Transformer",
+    "轻量级模型",
+    "特征解耦",
+    "内容保留"
+   ],
+   "field": "图像风格迁移",
+   "innovations": [
+    "仅含编码器的轻量级Transformer设计，降低计算复杂度",
+    "纯内容与纯风格特征提取器的解耦设计",
+    "可学习输出序列ε_o的内容初始化策略"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "WikiArt"
+   ]
+  }
+ }
 }

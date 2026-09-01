@@ -4,5 +4,31 @@
  "title": "SHViT-Single-Head-Vision-Transformer-with-Memory-Efficient-M",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/ce958cb1-17b8-40d3-940b-e44f8fb8206a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/ce958cb1-17b8-40d3-940b-e44f8fb8206a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:23:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "efficient deep learning",
+    "single-head attention",
+    "memory efficiency",
+    "mobile AI",
+    "image classification",
+    "object detection"
+   ],
+   "field": "高效视觉Transformer架构设计",
+   "innovations": [
+    "系统性分析macro/micro设计冗余并提出内存高效设计原则",
+    "单头部分通道自注意力（SHSA）在根除head冗余的同时并行融合全局与局部信息",
+    "16×16重叠patch嵌入+3阶段宏设计突破传统4×4/4阶段配置"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "MS COCO"
+   ]
+  }
+ }
 }

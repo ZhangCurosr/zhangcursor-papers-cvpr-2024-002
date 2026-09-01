@@ -4,5 +4,30 @@
  "title": "Improving-Training-Efficiency-of-Diffusion-Models-via-Multi",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6d80357d-e902-4d91-9d4f-0659df50e0ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/6d80357d-e902-4d91-9d4f-0659df50e0ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:17:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Models",
+    "Training Efficiency",
+    "Multi-Stage Framework",
+    "Multi-Decoder U-Net",
+    "Timestep Clustering",
+    "Generative Modeling"
+   ],
+   "field": "扩散模型高效训练",
+   "innovations": [
+    "提出共享编码器+多解码器U-Net架构，兼顾抗过拟合与参数适配",
+    "设计基于最优去噪器功能距离的时间步聚类算法，自动划分训练阶段"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CelebA 32x32",
+    "CelebA 256x256"
+   ]
+  }
+ }
 }

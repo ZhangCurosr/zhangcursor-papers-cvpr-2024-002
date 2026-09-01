@@ -4,5 +4,33 @@
  "title": "SAI3D-Segment-Any-Instance-in-3D-Scenes",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:11:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/4df3b292-3733-4247-bd5c-c2324a9a60f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/4df3b292-3733-4247-bd5c-c2324a9a60f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:22:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D instance segmentation",
+    "zero-shot",
+    "Segment Anything Model",
+    "region growing",
+    "open-vocabulary",
+    "ScanNet++",
+    "multi-view consistency"
+   ],
+   "field": "3D 场景理解与分割",
+   "innovations": [
+    "基于超点图的零样本 3D 实例分割，联合 SAM 2D 掩码与 3D 几何先验",
+    "多级合并准则与渐进式动态阈值区域生长算法，避免误差累积和阈值敏感",
+    "在 ScanNet++ 上类无关分割超越全监督 Mask3D，长尾类别泛化优势显著"
+   ],
+   "benchmarks": [
+    "ScanNet++",
+    "ScanNetV2",
+    "ScanNet200",
+    "Matterport3D"
+   ]
+  }
+ }
 }

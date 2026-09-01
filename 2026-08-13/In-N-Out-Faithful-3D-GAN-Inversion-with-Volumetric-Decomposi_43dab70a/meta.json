@@ -4,5 +4,32 @@
  "title": "In-N-Out-Faithful-3D-GAN-Inversion-with-Volumetric-Decomposi",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:11:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/8905f3ea-c093-4f38-b496-6d97e28157e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/8905f3ea-c093-4f38-b496-6d97e28157e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:18:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D GAN Inversion",
+    "Volumetric Decomposition",
+    "GAN Editing",
+    "Neural Radiance Field",
+    "Composite Rendering",
+    "Face Reconstruction"
+   ],
+   "field": "3D感知生成与编辑",
+   "innovations": [
+    "显式分解InD/OOD双场复合渲染实现高保真重建与可编辑性兼顾",
+    "引入混合权重熵正则促进干净的场景分解",
+    "仅微调SR模块保留预训练GAN prior的轻量高分辨率策略"
+   ],
+   "benchmarks": [
+    "LPIPS",
+    "PSNR",
+    "SSIM",
+    "ID Similarity (ArcFace)"
+   ]
+  }
+ }
 }

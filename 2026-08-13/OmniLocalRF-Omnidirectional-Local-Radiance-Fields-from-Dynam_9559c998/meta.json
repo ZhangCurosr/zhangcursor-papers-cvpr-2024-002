@@ -4,5 +4,32 @@
  "title": "OmniLocalRF-Omnidirectional-Local-Radiance-Fields-from-Dynam",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:13:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/4e0a1dd4-a2cb-4e23-ae42-a34eb6b9d5d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/4e0a1dd4-a2cb-4e23-ae42-a34eb6b9d5d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:19:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "omnidirectional view synthesis",
+    "dynamic object removal",
+    "neural radiance fields",
+    "LocalRF",
+    "motion mask",
+    "bidirectional optimization",
+    "360 video"
+   ],
+   "field": "360°全景神经辐射场与动态场景分解",
+   "innovations": [
+    "双向远帧优化机制：利用360°环形视场在相邻RF块间进行跨帧双向光度refinement",
+    "无预训练的多分辨率等距特征平面运动掩码模块，在体积渲染中联合学习静动解耦",
+    "在无需人工掩码与相机先验条件下实现长360°视频静态新视角合成与自校准位姿估计"
+   ],
+   "benchmarks": [
+    "self-collected Insta360 real 360° dataset (6 scenes)",
+    "synthetic 360° dataset with floating dynamic objects (3 scenes)",
+    "Mip-NeRF360, EgoNeRF, LocalRF, D²NeRF, RobustNeRF baselines"
+   ]
+  }
+ }
 }

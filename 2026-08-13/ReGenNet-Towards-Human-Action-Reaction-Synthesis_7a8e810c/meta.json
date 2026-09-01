@@ -4,5 +4,10 @@
  "title": "ReGenNet-Towards-Human-Action-Reaction-Synthesis",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/62b7a704-1403-48e1-8320-3d771a4aec37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/62b7a704-1403-48e1-8320-3d771a4aec37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:21:46",
+  "chunks": 1
+ }
 }

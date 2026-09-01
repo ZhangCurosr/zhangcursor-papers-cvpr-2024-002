@@ -4,5 +4,31 @@
  "title": "SD2Event-Self-supervised-Learning-of-Dynamic-Detectors-and-C",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/952625f4-256d-43fd-9432-8f11957eec41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/952625f4-256d-43fd-9432-8f11957eec41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:22:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件相机",
+    "关键点检测",
+    "自监督学习",
+    "动态检测器",
+    "上下文描述子",
+    "基于代理的注意力"
+   ],
+   "field": "事件视觉",
+   "innovations": [
+    "提出自监督信号避免依赖传统图像关键点检测器",
+    "设计CFDL模块利用基于代理的注意力建模长程依赖",
+    "设计DKDL模块生成随输入动态更新的关键点检测器"
+   ],
+   "benchmarks": [
+    "Event-Camera",
+    "N-Caltech101",
+    "HVGA ATIS Corner"
+   ]
+  }
+ }
 }

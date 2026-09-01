@@ -4,5 +4,30 @@
  "title": "RankMatch-Exploring-the-Better-Consistency-Regularization-fo",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/5ccbd48a-6439-4aa0-8ddc-84c3357ea314.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/5ccbd48a-6439-4aa0-8ddc-84c3357ea314.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:20:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "半监督语义分割",
+    "一致性正则化",
+    "相关性建模",
+    "代理选择",
+    "rank-aware"
+   ],
+   "field": "半监督学习",
+   "innovations": [
+    "提出基于代理相关性的一致性正则化替代对比学习",
+    "设计正交选择策略动态构建代表性代理",
+    "引入rank-aware概率分布建模代理间关系"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2012",
+    "Cityscapes",
+    "Lucchi"
+   ]
+  }
+ }
 }

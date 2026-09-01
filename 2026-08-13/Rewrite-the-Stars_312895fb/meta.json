@@ -4,5 +4,30 @@
  "title": "Rewrite-the-Stars",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/549d43f6-a770-4af1-9296-68f49dee2e09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/549d43f6-a770-4af1-9296-68f49dee2e09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:21:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "star operation",
+    "逐元素乘法",
+    "高效网络",
+    "隐式高维",
+    "多项式核",
+    "轻量化CNN",
+    "image classification"
+   ],
+   "field": "高效视觉网络架构",
+   "innovations": [
+    "从理论上证明star operation可将输入映射到约(d/√2)²维隐式高维非线性特征空间，类比多项式核技巧",
+    "推导多层stacking使隐式维度指数增长至(d/√2)^(2^l)，为轻量网络高表达能力提供理论保证",
+    "提出极简StarNet原型网络，在7.5M参数/1075M FLOPs下达到78.4% ImageNet top-1，超越EdgeViT-XS且快3倍"
+   ],
+   "benchmarks": [
+    "ImageNet-1K"
+   ]
+  }
+ }
 }

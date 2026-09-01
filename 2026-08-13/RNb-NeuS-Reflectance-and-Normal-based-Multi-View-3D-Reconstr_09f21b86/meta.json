@@ -4,5 +4,10 @@
  "title": "RNb-NeuS-Reflectance-and-Normal-based-Multi-View-3D-Reconstr",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/56c342d9-8a32-4e9b-b370-e7cc931d1e4c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/56c342d9-8a32-4e9b-b370-e7cc931d1e4c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:21:02",
+  "chunks": 1
+ }
 }

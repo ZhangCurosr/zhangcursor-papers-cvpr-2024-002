@@ -4,5 +4,31 @@
  "title": "PRDP-Proximal-Reward-Difference-Prediction-for-Large-Scale-R",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:13:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/7c6de27a-6152-407a-8271-223d2613d3cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/7c6de27a-6152-407a-8271-223d2613d3cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:14:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "reward finetuning",
+    "RLHF",
+    "black-box optimization",
+    "proximal policy optimization",
+    "generative alignment"
+   ],
+   "field": "扩散模型奖励微调",
+   "innovations": [
+    "将RLHF目标转化为等价的监督回归目标RDP，消除策略梯度方差",
+    "设计近端裁剪与在线快照更新机制实现10万+prompt稳定训练"
+   ],
+   "benchmarks": [
+    "HPDv2",
+    "Pick-a-Pic v1",
+    "HPSv2",
+    "PickScore"
+   ]
+  }
+ }
 }

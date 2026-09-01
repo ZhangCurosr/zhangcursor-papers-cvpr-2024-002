@@ -4,5 +4,30 @@
  "title": "PLACE-Adaptive-Layout-Semantic-Fusion-for-Semantic-Image-Syn",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/8b302ae4-3365-4709-9130-4cf709f47b13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/8b302ae4-3365-4709-9130-4cf709f47b13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:14:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义图像合成",
+    "可控生成",
+    "扩散模型",
+    "布局控制",
+    "Stable Diffusion",
+    "条件生成"
+   ],
+   "field": "可控图像生成",
+   "innovations": [
+    "提出Layout Control Map忠实编码低分辨率特征空间的布局比例信息",
+    "设计时步自适应融合模块Ada-α平衡布局控制与全局语义交互",
+    "引入SA loss和LFP loss分别增强布局对齐和保持预训练先验"
+   ],
+   "benchmarks": [
+    "ADE20K",
+    "COCO-Stuff"
+   ]
+  }
+ }
 }

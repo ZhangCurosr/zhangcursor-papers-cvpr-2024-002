@@ -4,5 +4,34 @@
  "title": "KeyPoint-Relative-Position-Encoding-for-Face-Recognition",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/17e1cf13-dbb2-4d97-8713-868b5a5c7907.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/17e1cf13-dbb2-4d97-8713-868b5a5c7907.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:14:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "face recognition",
+    "vision transformer",
+    "relative position encoding",
+    "affine robustness",
+    "keypoint",
+    "gait recognition",
+    "low-quality images"
+   ],
+   "field": "人脸/步态识别",
+   "innovations": [
+    "提出KP-RPE将ViT相对位置编码动态依赖关键点，提升仿射变换鲁棒性",
+    "设计Relative/MultiHead f(P)变体，证明相对坐标比绝对坐标更有效",
+    "在低质量与未对齐数据集上显著提升性能且计算开销远低于iRPE"
+   ],
+   "benchmarks": [
+    "TinyFace",
+    "IJB-S",
+    "CFPFP",
+    "IJB-C",
+    "Gait3D"
+   ]
+  }
+ }
 }

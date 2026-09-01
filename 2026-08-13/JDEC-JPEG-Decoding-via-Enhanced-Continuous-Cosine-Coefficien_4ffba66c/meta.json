@@ -4,5 +4,31 @@
  "title": "JDEC-JPEG-Decoding-via-Enhanced-Continuous-Cosine-Coefficien",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:10:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/afdee085-83e6-4d1d-a19d-fd8356b1bf89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/afdee085-83e6-4d1d-a19d-fd8356b1bf89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:14:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JPEG解码",
+    "隐式神经表示",
+    "去块效应",
+    "连续余弦公式",
+    "频域处理",
+    "图像压缩"
+   ],
+   "field": "图像压缩与重建",
+   "innovations": [
+    "直接以量化频谱为输入的端到端JPEG解码框架",
+    "连续余弦公式模块同时完成去量化和上采样",
+    "单模型跨全质量因子范围的灵活JPEG解码"
+   ],
+   "benchmarks": [
+    "LIVE-1",
+    "BSDS500",
+    "ICB"
+   ]
+  }
+ }
 }

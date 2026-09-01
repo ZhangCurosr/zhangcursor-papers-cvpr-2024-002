@@ -4,5 +4,30 @@
  "title": "Open-World-Semantic-Segmentation-Including-Class-Similarity",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/d624ce32-fc1b-4b15-806b-a4cf67f76add.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/d624ce32-fc1b-4b15-806b-a4cf67f76add.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:14:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-world semantic segmentation",
+    "anomaly segmentation",
+    "novel class discovery",
+    "feature space",
+    "contrastive learning",
+    "class similarity"
+   ],
+   "field": "开放世界语义分割",
+   "innovations": [
+    "双解码器架构：语义解码器学习类特征描述符+对比解码器执行异常分割",
+    "特征损失函数：通过累积类原型均值和方差在特征空间约束同类像素",
+    "高斯后处理+融合策略：利用类高斯分布似然和对比特征范数融合判定未知像素"
+   ],
+   "benchmarks": [
+    "SegmentMeIfYouCan",
+    "BDDAnomaly"
+   ]
+  }
+ }
 }

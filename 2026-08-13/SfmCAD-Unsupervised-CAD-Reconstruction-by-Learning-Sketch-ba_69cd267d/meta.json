@@ -4,5 +4,10 @@
  "title": "SfmCAD-Unsupervised-CAD-Reconstruction-by-Learning-Sketch-ba",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:12:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/1f283287-c305-417f-bb7c-49b9247b0d6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/1f283287-c305-417f-bb7c-49b9247b0d6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:15:39",
+  "chunks": 1
+ }
 }

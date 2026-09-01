@@ -4,5 +4,30 @@
  "title": "Seeing-and-Hearing-Open-domain-Visual-Audio-Generation-with",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:11:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/b03af9e2-839d-4c3b-99f3-782d128f68ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/b03af9e2-839d-4c3b-99f3-782d128f68ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:15:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态生成",
+    "视频音频联合生成",
+    "扩散模型",
+    "多模态对齐",
+    "训练-free方法",
+    "ImageBind"
+   ],
+   "field": "多模态生成",
+   "innovations": [
+    "提出Diffusion Latent Aligner在扩散去噪过程中注入跨模态梯度指导",
+    "首次实现文本引导的开放域联合视频-音频生成",
+    "利用预训练ImageBind作为训练-free的跨模态对齐桥梁"
+   ],
+   "benchmarks": [
+    "VGGSound",
+    "Landscape"
+   ]
+  }
+ }
 }

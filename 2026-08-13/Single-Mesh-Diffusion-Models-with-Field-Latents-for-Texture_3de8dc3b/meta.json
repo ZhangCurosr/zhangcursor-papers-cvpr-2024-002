@@ -4,5 +4,31 @@
  "title": "Single-Mesh-Diffusion-Models-with-Field-Latents-for-Texture",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/9dae4c00-2c3b-4271-8982-6687f073d81c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/9dae4c00-2c3b-4271-8982-6687f073d81c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:15:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "texture generation",
+    "diffusion model",
+    "field latent",
+    "isometry equivariance",
+    "single-mesh",
+    "manifold deep learning",
+    "3D shape"
+   ],
+   "field": "3D生成与纹理合成",
+   "innovations": [
+    "Field Latents将纹理编码为顶点切向量场以实现更高保真压缩",
+    "FLDM在等距等变约束下学习曲面切空间扩散去噪",
+    "单纹理网格范式下支持标签引导、inpainting与跨几何生成式纹理转移"
+   ],
+   "benchmarks": [
+    "Google Scanned Objects",
+    "Objaverse"
+   ]
+  }
+ }
 }

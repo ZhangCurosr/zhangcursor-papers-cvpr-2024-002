@@ -4,5 +4,30 @@
  "title": "Semantic-Human-Mesh-Reconstruction-with-Textures",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:13:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/68e3c8fb-0d9a-4e51-92ca-ce67767611ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/68e3c8fb-0d9a-4e51-92ca-ce67767611ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:15:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic human mesh",
+    "texture generation",
+    "non-rigid registration",
+    "diffusion model",
+    "UV completion",
+    "monocular reconstruction"
+   ],
+   "field": "三维人体重建与纹理合成",
+   "innovations": [
+    "语义-法向采样(SNS)实现不完整输入鲁棒配准",
+    "自监督UV域网格补全与细化网络",
+    "文本驱动高分辨率语义纹理生成"
+   ],
+   "benchmarks": [
+    "THuman2.0",
+    "CAPE-NFP"
+   ]
+  }
+ }
 }

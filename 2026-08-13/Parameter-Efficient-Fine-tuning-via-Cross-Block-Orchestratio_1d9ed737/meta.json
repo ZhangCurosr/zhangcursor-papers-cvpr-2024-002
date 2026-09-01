@@ -4,5 +4,37 @@
  "title": "Parameter-Efficient-Fine-tuning-via-Cross-Block-Orchestratio",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:13:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/d2ee9452-9ee1-4e48-bf68-7edc4156324b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/d2ee9452-9ee1-4e48-bf68-7edc4156324b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:30:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PEFT",
+    "SAM",
+    "cross-block orchestration",
+    "hyper-complex number",
+    "medical image segmentation"
+   ],
+   "field": "视觉基础模型高效微调",
+   "innovations": [
+    "提出跨块通信(IBC)模块，通过可学习关系矩阵突破HMC限制实现参数空间全局协同",
+    "设计超复数层(HL)增强块内投影方向调整对全局参数空间的影响力",
+    "双系数集设计兼顾局部信息传递与跨层全局优化"
+   ],
+   "benchmarks": [
+    "COCO",
+    "TRCAN",
+    "NWPU",
+    "SSDD",
+    "SONAR",
+    "ADOME",
+    "SPLEN",
+    "MOMO",
+    "BRAST",
+    "SEGRAP"
+   ]
+  }
+ }
 }

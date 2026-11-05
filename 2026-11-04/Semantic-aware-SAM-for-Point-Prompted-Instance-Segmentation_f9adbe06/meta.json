@@ -4,5 +4,30 @@
  "title": "Semantic-aware-SAM-for-Point-Prompted-Instance-Segmentation",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-11-04 21:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5094fae9-8ada-48f7-977c-b6985191de39.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5094fae9-8ada-48f7-977c-b6985191de39.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:12:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "实例分割",
+    "弱监督学习",
+    "SAM",
+    "点提示",
+    "多实例学习",
+    "语义感知"
+   ],
+   "field": "弱监督实例分割",
+   "innovations": [
+    "提出SAPNet将SAM与单点提示结合解决类无关语义模糊问题",
+    "引入PDG距离惩罚和BMS框挖掘策略缓解MIL分组/局部问题",
+    "在COCO/VOC上达到点提示实例分割SOTA，31.2 mAP超越BESTIE 13.5 AP"
+   ],
+   "benchmarks": [
+    "MS COCO 2017 val",
+    "VOC2012SBD"
+   ]
+  }
+ }
 }

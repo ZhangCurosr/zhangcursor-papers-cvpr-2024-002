@@ -4,5 +4,28 @@
  "title": "Z-sup-sup-Zero-shot-Style-Transfer-via-Attention-Reweighting",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-11-04 21:15:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f61a210b-70b9-4c7b-bd63-08feab4ec36c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f61a210b-70b9-4c7b-bd63-08feab4ec36c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:12:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像风格迁移",
+    "零样本学习",
+    "扩散模型",
+    "注意力机制",
+    "Latent Diffusion"
+   ],
+   "field": "图像风格迁移",
+   "innovations": [
+    "提出基于注意力重加权的零样本风格迁移方法Z*，无需训练即可利用预训练扩散模型先验",
+    "设计双去噪路径与交叉注意力重加权机制，自适应平衡内容保持与风格表达"
+   ],
+   "benchmarks": [
+    "用户研究对比（55参与者，1760票）",
+    "定性对比ArtFlow/AdaAttN/IEST/StyTr2/CAST/QuanArt/InST/VCT"
+   ]
+  }
+ }
 }

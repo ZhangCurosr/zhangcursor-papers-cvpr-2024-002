@@ -4,5 +4,30 @@
  "title": "SDPose-Tokenized-Pose-Estimation-via-Circulation-Guide-Self",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-11-04 21:22:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e39c277d-7b14-4dc3-939b-2e2cd1c8950d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e39c277d-7b14-4dc3-939b-2e2cd1c8950d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:37:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Pose Estimation",
+    "Self-Distillation",
+    "Transformer",
+    "Lightweight Model",
+    "Edge Deployment"
+   ],
+   "field": "轻量级姿态估计",
+   "innovations": [
+    "首创循环前向提升Transformer隐式深度",
+    "同向量子空间自蒸馏无需额外对齐",
+    "同等规模模型SOTA且可迁移至分类任务"
+   ],
+   "benchmarks": [
+    "MSCOCO validation",
+    "MSCOCO test-dev",
+    "Crowdpose test"
+   ]
+  }
+ }
 }

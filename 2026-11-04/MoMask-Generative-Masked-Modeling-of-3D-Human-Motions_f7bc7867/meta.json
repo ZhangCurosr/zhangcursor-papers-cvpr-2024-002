@@ -4,5 +4,29 @@
  "title": "MoMask-Generative-Masked-Modeling-of-3D-Human-Motions",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-11-04 21:17:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e0de7105-1018-45b8-9a1a-3627874d9fba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e0de7105-1018-45b8-9a1a-3627874d9fba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:37:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Human Motion Generation",
+    "Masked Generative Modeling",
+    "Residual Vector Quantization",
+    "Text-to-Motion",
+    "Discrete Representation Learning"
+   ],
+   "field": "3D人体动作生成",
+   "innovations": [
+    "首个将生成式掩码建模应用于3D动作生成的框架，结合RVQ分层量化与迭代掩码解码",
+    "提出置信度驱动的双向掩码迭代生成机制，仅需15步即可收敛高质量动作序列",
+    "统一支持text-to-motion生成与temporal inpainting，无需额外微调"
+   ],
+   "benchmarks": [
+    "HumanML3D",
+    "KIT-ML"
+   ]
+  }
+ }
 }

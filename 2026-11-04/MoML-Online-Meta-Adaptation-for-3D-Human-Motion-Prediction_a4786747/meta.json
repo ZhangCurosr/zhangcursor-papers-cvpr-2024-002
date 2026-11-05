@@ -4,5 +4,31 @@
  "title": "MoML-Online-Meta-Adaptation-for-3D-Human-Motion-Prediction",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-11-04 21:17:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/90c92c26-be4f-4bb8-8c3e-1ebf8278b54e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/90c92c26-be4f-4bb8-8c3e-1ebf8278b54e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:37:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Human Motion Prediction",
+    "Online Meta-Learning",
+    "Model-Agnostic Meta-Learning (MAML)",
+    "Online Adaptation",
+    "Parameter-Efficient Fine-Tuning",
+    "Concept Drift"
+   ],
+   "field": "3D人体运动预测与在线学习",
+   "innovations": [
+    "提出在线元适应任务，将预测误差作为驱动信号实现模型沿时间的快速自适应",
+    "设计MoAdapter模块并分离通用/自适应参数，结合MAML双层优化实现高效在线学习",
+    "提出Fast-MoML，通过闭式解替代梯度下降实现毫秒级单步参数适配"
+   ],
+   "benchmarks": [
+    "Human3.6M",
+    "CMU-Mocap",
+    "3DPW"
+   ]
+  }
+ }
 }

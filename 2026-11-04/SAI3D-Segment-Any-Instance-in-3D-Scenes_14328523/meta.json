@@ -4,5 +4,31 @@
  "title": "SAI3D-Segment-Any-Instance-in-3D-Scenes",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-11-04 21:05:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/59f46e56-f420-4484-9288-51009a723fa9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/59f46e56-f420-4484-9288-51009a723fa9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:37:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D instance segmentation",
+    "zero-shot",
+    "SAM",
+    "region growing",
+    "open-vocabulary",
+    "3D scene parsing"
+   ],
+   "field": "3D 视觉与实例分割",
+   "innovations": [
+    "基于3D几何基元与多视图SAM掩码加权投票的零样本3D实例分割框架",
+    "分层多级合并准则结合渐进式动态阈值区域生长算法，有效缓解2D掩码噪声累积误差"
+   ],
+   "benchmarks": [
+    "ScanNet++",
+    "ScanNetV2",
+    "ScanNet200",
+    "Matterport3D"
+   ]
+  }
+ }
 }

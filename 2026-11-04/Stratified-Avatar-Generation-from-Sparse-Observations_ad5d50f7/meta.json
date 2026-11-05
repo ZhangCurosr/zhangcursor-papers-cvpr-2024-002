@@ -4,5 +4,33 @@
  "title": "Stratified-Avatar-Generation-from-Sparse-Observations",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-11-04 21:08:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c2227a5f-539f-4ee0-b05b-f24d30f87c28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c2227a5f-539f-4ee0-b05b-f24d30f87c28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:35:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human motion reconstruction",
+    "sparse observation",
+    "latent diffusion",
+    "VQ-VAE",
+    "full-body avatar",
+    "SMPL",
+    "分层生成"
+   ],
+   "field": "人机交互与稀疏传感重建",
+   "innovations": [
+    "基于SMPL运动学树的上半身/下半身分层扩散生成框架",
+    "VQ-VAE离散隐空间与分层条件扩散的结合",
+    "Full-body Decoder与轻量GRU Refiner的时序平滑机制"
+   ],
+   "benchmarks": [
+    "AMASS",
+    "Setting S1 (9:1 split on CMU/BMLrub/HDM05)",
+    "Setting S2 (AMASS large-scale)",
+    "Setting S3 (new fair 9:1 split)"
+   ]
+  }
+ }
 }

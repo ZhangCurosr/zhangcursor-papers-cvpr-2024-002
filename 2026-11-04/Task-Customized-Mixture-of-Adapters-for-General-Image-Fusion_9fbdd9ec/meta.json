@@ -4,5 +4,31 @@
  "title": "Task-Customized-Mixture-of-Adapters-for-General-Image-Fusion",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-11-04 21:12:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/19f1a908-a3b5-41b3-87b1-fa0a7b9e08f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/19f1a908-a3b5-41b3-87b1-fa0a7b9e08f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:35:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像融合",
+    "Mixture of Experts",
+    "参数高效微调",
+    "视觉Transformer",
+    "通用融合",
+    "适配器"
+   ],
+   "field": "多模态图像融合",
+   "innovations": [
+    "首次将MoE适配器机制引入预训练ViT实现通用图像融合",
+    "提出互信息正则化约束双源特征互补性",
+    "通过TopK稀疏路由实现任务定制化的动态融合强度控制"
+   ],
+   "benchmarks": [
+    "LLVIP",
+    "MEFB",
+    "RealMFF/MFI-WHU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Towards-a-Perceptual-Evaluation-Framework-for-Lighting-Estim",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-11-04 21:12:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a5eb2dde-edbe-42bc-812e-3af9b3bd80ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a5eb2dde-edbe-42bc-812e-3af9b3bd80ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:36:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lighting estimation",
+    "perceptual evaluation",
+    "image quality assessment",
+    "psychophysical study",
+    "virtual object insertion",
+    "IQA metrics",
+    "human perception"
+   ],
+   "field": "照明估计感知评估",
+   "innovations": [
+    "系统证明主流IQA指标与人类感知在照明估计评估中大多不一致",
+    "提出学习式多IQA指标组合方法以预测人类偏好",
+    "公开首个照明估计感知基准数据与代码"
+   ],
+   "benchmarks": [
+    "Thurstone z-score排名",
+    "Agreement score",
+    "Spearman's rho / Kendall's tau"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "MarkovGen-Structured-Prediction-for-Efficient-Text-to-Image",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-11-04 21:09:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9279909e-05f5-4017-9365-d4ba8774f20e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9279909e-05f5-4017-9365-d4ba8774f20e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:32:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image generation",
+    "Markov random field",
+    "structured prediction",
+    "Muse",
+    "efficient generation",
+    "token-based generation"
+   ],
+   "field": "文本到图像生成",
+   "innovations": [
+    "首个将 MRF 结构化预测应用于离散 token 图像生成，替代 Muse 末尾采样步实现 1.5× 加速",
+    "可微 MRF 推理层通过 mean-field 算法实现，支持端到端训练",
+    "两阶段训练策略：自监督预训练 + KL 散度微调模仿教师模型"
+   ],
+   "benchmarks": [
+    "MS-COCO FID",
+    "Parti Prompts 人类评估"
+   ]
+  }
+ }
 }

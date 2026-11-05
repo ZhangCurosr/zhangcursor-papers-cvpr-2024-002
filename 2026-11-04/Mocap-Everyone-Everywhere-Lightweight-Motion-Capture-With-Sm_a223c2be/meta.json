@@ -4,5 +4,32 @@
  "title": "Mocap-Everyone-Everywhere-Lightweight-Motion-Capture-With-Sm",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-11-04 21:10:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fb5396ea-c3be-4c16-b3c4-1729b0cd50e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fb5396ea-c3be-4c16-b3c4-1729b0cd50e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:33:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "惯性动捕",
+    "腕部IMU",
+    "头戴相机",
+    "单目SLAM",
+    "运动流形优化",
+    "多用户动捕",
+    "非平坦地形"
+   ],
+   "field": "可穿戴人体运动重建",
+   "innovations": [
+    "仅用两块智能手表+头戴单目相机实现全身上身 IMU 动捕，设备成本远低于 6 IMU 方案",
+    "提出基于脚接触与 3D 点云的 Floor Level 实时跟踪算法，解决楼梯/斜坡等非水平地形高度歧义",
+    "设计多阶段 Transformer 回归模块并引入 end-effector 中间表示约束，在极端稀疏输入下实现优于 PIP/TIP 的精度"
+   ],
+   "benchmarks": [
+    "TotalCapture",
+    "AMASS",
+    "HPS"
+   ]
+  }
+ }
 }

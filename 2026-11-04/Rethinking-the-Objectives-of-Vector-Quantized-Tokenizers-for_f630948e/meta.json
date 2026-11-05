@@ -4,5 +4,31 @@
  "title": "Rethinking-the-Objectives-of-Vector-Quantized-Tokenizers-for",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-11-04 21:24:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/40e01c00-0401-47e6-9d36-4e746f8d88bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/40e01c00-0401-47e6-9d36-4e746f8d88bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:33:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VQ Tokenizer",
+    "Image Generation",
+    "Semantic Compression",
+    "GAN",
+    "Autoregressive Transformer",
+    "Vector Quantization"
+   ],
+   "field": "生成模型与表征学习",
+   "innovations": [
+    "提出可视化管道揭示重建保真度与生成质量的非单调关系",
+    "提出SeQ-GAN两阶段学习平衡语义压缩与细节保留",
+    "设计语义增强感知损失与codebook熵正则化提升生成质量"
+   ],
+   "benchmarks": [
+    "ImageNet 256x256",
+    "FFHQ",
+    "LSUN-Cat/Church/Bedroom"
+   ]
+  }
+ }
 }

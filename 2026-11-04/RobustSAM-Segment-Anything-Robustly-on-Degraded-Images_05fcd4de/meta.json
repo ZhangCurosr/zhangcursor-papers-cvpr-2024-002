@@ -4,5 +4,37 @@
  "title": "RobustSAM-Segment-Anything-Robustly-on-Degraded-Images",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-11-04 21:14:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/661d2b6e-0dd6-439d-ab37-6bcd8af1a61f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/661d2b6e-0dd6-439d-ab37-6bcd8af1a61f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:34:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "鲁棒分割",
+    "Segment Anything Model",
+    "图像退化",
+    "零样本分割",
+    "特征一致性蒸馏",
+    "傅里叶退化抑制"
+   ],
+   "field": "鲁棒视觉分割",
+   "innovations": [
+    "冻结SAM主干+轻量抗退化模块实现退化鲁棒零样本分割",
+    "干净-退化双路径特征一致性损失蒸馏机制",
+    "Fourier频域退化抑制模块用于分割特征去噪"
+   ],
+   "benchmarks": [
+    "Robust-Seg",
+    "MSRA10K",
+    "LVIS",
+    "NDD20",
+    "STREETS",
+    "FSS-1000",
+    "COCO",
+    "BDD-100k",
+    "LIS"
+   ]
+  }
+ }
 }

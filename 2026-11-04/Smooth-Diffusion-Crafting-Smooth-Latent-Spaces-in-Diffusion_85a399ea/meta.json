@@ -4,5 +4,30 @@
  "title": "Smooth-Diffusion-Crafting-Smooth-Latent-Spaces-in-Diffusion",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-11-04 21:19:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2b3b464f-9c9b-4b28-8bc1-47d55dcfa090.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2b3b464f-9c9b-4b28-8bc1-47d55dcfa090.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:34:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "潜在空间平滑性",
+    "Step-wise Variation Regularization",
+    "图像反转",
+    "图像编辑",
+    "LoRA微调"
+   ],
+   "field": "扩散模型训练优化",
+   "innovations": [
+    "首次形式化扩散模型潜在空间平滑性目标并提出训练约束",
+    "提出Step-wise Variation Regularization实现t-step级别平滑性训练",
+    "设计ISTD指标量化评估潜在空间平滑性"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "LAION Aesthetics 6.5+"
+   ]
+  }
+ }
 }

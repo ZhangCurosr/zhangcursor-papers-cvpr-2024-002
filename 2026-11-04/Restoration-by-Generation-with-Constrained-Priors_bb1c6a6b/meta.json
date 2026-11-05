@@ -4,5 +4,31 @@
  "title": "Restoration-by-Generation-with-Constrained-Priors",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-11-04 21:09:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/03d5241b-325c-4380-a2ae-fb50bbf0059a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/03d5241b-325c-4380-a2ae-fb50bbf0059a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:33:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像恢复",
+    "扩散模型",
+    "盲人脸恢复",
+    "生成模型",
+    "个性化恢复"
+   ],
+   "field": "低级别视觉-图像恢复",
+   "innovations": [
+    "提出噪声对齐的恢复即生成范式，无需假设退化类型",
+    "通过生成专辑/个人专辑约束扩散模型生成空间以保持身份",
+    "引入Skip Guidance周期性引导策略生成高质量anchor图像"
+   ],
+   "benchmarks": [
+    "Wider-Test",
+    "LFW-Test",
+    "WebPhoto-Test",
+    "Deblur-Test"
+   ]
+  }
+ }
 }

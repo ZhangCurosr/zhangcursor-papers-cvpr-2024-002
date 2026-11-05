@@ -4,5 +4,35 @@
  "title": "MRFP-Learning-Generalizable-Semantic-Segmentation-from-Sim-2",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-11-04 21:15:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c62b007b-485b-4b95-b4eb-bfe0a772455a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c62b007b-485b-4b95-b4eb-bfe0a772455a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:32:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义分割",
+    "域泛化",
+    "Sim-2-Real",
+    "特征扰动",
+    "多分辨率",
+    "过完备网络"
+   ],
+   "field": "域泛化语义分割",
+   "innovations": [
+    "提出MRFP多分辨率特征扰动技术，在特征空间同时扰动高低频特征以提升Sim-2-Real泛化性能",
+    "设计HRFP模块利用递减感受野过完备网络扰动细粒度高频特征，防止域特定特征过拟合",
+    "无参即插即用模块，无需额外训练目标或计算开销即可提升泛化性能"
+   ],
+   "benchmarks": [
+    "GTAV",
+    "Synthia",
+    "Cityscapes",
+    "BDD100k",
+    "Mapillary",
+    "Foggy Cityscapes",
+    "Rainy Cityscapes"
+   ]
+  }
+ }
 }

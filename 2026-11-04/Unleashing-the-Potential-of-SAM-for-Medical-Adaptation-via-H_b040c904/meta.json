@@ -4,5 +4,31 @@
  "title": "Unleashing-the-Potential-of-SAM-for-Medical-Adaptation-via-H",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-11-04 21:22:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9fe1d43d-b095-41cf-bc72-38ad2142d725.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9fe1d43d-b095-41cf-bc72-38ad2142d725.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:36:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SAM adaptation",
+    "medical image segmentation",
+    "prompt-free",
+    "hierarchical decoding",
+    "few-shot segmentation",
+    "LoRA"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "两阶段层级解码器：以 SAM 原始解码器生成概率先验 mask 引导第二阶段精细解码",
+    "Learnable Mask Cross-Attention：用概率掩码替代二值掩码实现可微空间调制",
+    "Class-Balanced Mask-Guided Self-Attention：类平衡高斯噪声增强图像嵌入以缓解长尾分布"
+   ],
+   "benchmarks": [
+    "Synapse Multi-Organ CT",
+    "Left Atrium (LA) Dataset",
+    "PROMISE12 Prostate MRI"
+   ]
+  }
+ }
 }

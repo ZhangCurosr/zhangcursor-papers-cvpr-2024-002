@@ -4,5 +4,31 @@
  "title": "StyLitGAN-Image-based-Relighting-via-Latent-Control",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-11-04 21:14:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5b8de6f0-b9ce-45f4-9ed4-10efffb7d495.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5b8de6f0-b9ce-45f4-9ed4-10efffb7d495.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:34:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像重光照",
+    "StyleGAN",
+    "潜空间编辑",
+    "内蕴图像分解",
+    "无监督学习",
+    "可控生成"
+   ],
+   "field": "生成模型可控编辑",
+   "innovations": [
+    "提出无监督内蕴分解引导的潜空间方向搜索方法实现物理合理重光照",
+    "设计一致性、多样性、区分性与饱和度惩罚联合损失确保方向有效性",
+    "前向选择策略从25组分解模型中筛选最优16个重光照方向"
+   ],
+   "benchmarks": [
+    "Multilum多光源数据集",
+    "Taskonomy法线预测测试集",
+    "StyleGAN预训练场景模型"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Synergistic-Global-space-Camera-and-Human-Reconstruction-fro",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-11-04 21:25:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/621cf6c2-9a76-4df0-b342-48e07f23de37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/621cf6c2-9a76-4df0-b342-48e07f23de37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:35:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单目视频重建",
+    "人体网格恢复",
+    "视觉SLAM",
+    "世界帧HMR",
+    "场景感知运动估计",
+    "度量级重建"
+   ],
+   "field": "3D人体与场景联合重建",
+   "innovations": [
+    "提出Human-aware Metric SLAM，以相机帧人体网格先验校准单目深度，直接输出度量级SLAM结果",
+    "首次提出Scene-aware SMPL Denoiser，以动态稠密场景点云为条件对世界帧人体轨迹进行时空去噪",
+    "构建HMR与SLAM双向协同的端到端pipeline，显著优于优化类基线且推理速度快8倍"
+   ],
+   "benchmarks": [
+    "EgoBody",
+    "3DPW",
+    "EMDB"
+   ]
+  }
+ }
 }

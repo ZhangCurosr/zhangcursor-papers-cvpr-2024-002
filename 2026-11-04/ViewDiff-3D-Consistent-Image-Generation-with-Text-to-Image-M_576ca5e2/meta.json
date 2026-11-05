@@ -4,5 +4,31 @@
  "title": "ViewDiff-3D-Consistent-Image-Generation-with-Text-to-Image-M",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-11-04 21:15:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/730f6d2c-40a7-47b2-93db-a983e467a6be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/730f6d2c-40a7-47b2-93db-a983e467a6be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:37:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D 一致图像生成",
+    "文本到图像扩散",
+    "跨帧注意力",
+    "体素投影层",
+    "自回归视角合成",
+    "多视角扩散",
+    "真实数据微调"
+   ],
+   "field": "3D 感知图像生成",
+   "innovations": [
+    "在预训练 2D T2I U-Net 中嵌入跨帧注意力与体素投影层实现多视角一致生成",
+    "提出自回归视角扩散方案以绕过二次 3D 优化重建阶段"
+   ],
+   "benchmarks": [
+    "CO3Dv2 Teddybear/Hydrant/Apple/Donut",
+    "FID/KID",
+    "PSNR/SSIM/LPIPS 单图重建"
+   ]
+  }
+ }
 }

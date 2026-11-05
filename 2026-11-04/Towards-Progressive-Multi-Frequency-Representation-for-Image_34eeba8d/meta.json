@@ -4,5 +4,33 @@
  "title": "Towards-Progressive-Multi-Frequency-Representation-for-Image",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-11-04 21:00:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/24b4b151-f14d-4c59-9f42-631ff42946b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/24b4b151-f14d-4c59-9f42-631ff42946b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:36:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Image Warping",
+    "Multi-Frequency Representation",
+    "Gabor Wavelet",
+    "Super-Resolution",
+    "Frequency Domain Learning",
+    "Geometric Transformation"
+   ],
+   "field": "图像几何变换与增强",
+   "innovations": [
+    "提出渐进式多频表示学习框架MFR，通过堆叠频域模块实现由粗到细的图像扭曲生成",
+    "引入可学习Gabor小波滤波器，利用其时频局部化特性同步捕捉局部空间与频率特征"
+   ],
+   "benchmarks": [
+    "DIV2KW",
+    "Set5W",
+    "Set14W",
+    "B100W",
+    "Urban100W",
+    "Flick360"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Retrieval-Augmented-Layout-Transformer-for-Content-Aware-Lay",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-11-04 21:23:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7e3899b1-999a-4792-bfc8-8fb55ffe26e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7e3899b1-999a-4792-bfc8-8fb55ffe26e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:34:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "content-aware layout generation",
+    "retrieval-augmented generation",
+    "autoregressive transformer",
+    "DreamSim",
+    "cross-attention",
+    "constrained layout generation",
+    "data scarcity"
+   ],
+   "field": "内容感知布局生成",
+   "innovations": [
+    "首次将检索增强引入图像-布局跨模态检索生成，提出 DreamSim 相似度度量",
+    "设计跨注意力融合模块实现图像特征与检索布局特征的有效交互",
+    "证明检索增强可模块化适配自回归/扩散/GAN 等多种生成架构"
+   ],
+   "benchmarks": [
+    "PKU",
+    "CGL"
+   ]
+  }
+ }
 }

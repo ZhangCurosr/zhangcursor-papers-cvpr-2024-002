@@ -4,5 +4,30 @@
  "title": "OmniLocalRF-Omnidirectional-Local-Radiance-Fields-from-Dynam",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-11-04 21:37:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4bd1198f-638d-4aa4-83ac-f61d6f4aeb70.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4bd1198f-638d-4aa4-83ac-f61d6f4aeb70.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "360° View Synthesis",
+    "Neural Radiance Fields",
+    "Dynamic Scene Removal",
+    "OmniDirectional Rendering",
+    "Local Radiance Fields",
+    "Self-Calibration"
+   ],
+   "field": "三维视觉与神经渲染",
+   "innovations": [
+    "提出基于远距离帧的双向优化机制以细化局部辐射场和位姿",
+    "设计无需预训练模型的可学习多分辨率运动掩码预测模块",
+    "实现端到端的动态物体自动移除与遮挡修复的全向视图合成"
+   ],
+   "benchmarks": [
+    "Real 360° Dynamic Video Dataset (6 scenes)",
+    "Synthetic 360° Datasets with Floating Objects"
+   ]
+  }
+ }
 }

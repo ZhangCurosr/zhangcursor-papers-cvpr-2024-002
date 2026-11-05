@@ -4,5 +4,28 @@
  "title": "Image-Sculpting-Precise-Object-Editing-with-3D-Geometry-Cont",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-11-04 21:03:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f104e8b0-5f6d-4d88-abde-89f3ebe63ade.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f104e8b0-5f6d-4d88-abde-89f3ebe63ade.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:41:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像编辑",
+    "3D重建",
+    "扩散模型",
+    "几何控制",
+    "单视图重建"
+   ],
+   "field": "生成式图像编辑",
+   "innovations": [
+    "提出结合3D几何控制的图像编辑框架，实现精确量化操作",
+    "设计粗到细生成增强流水线，平衡几何保持与纹理恢复",
+    "引入D-RMSE指标评估编辑后几何保真度"
+   ],
+   "benchmarks": [
+    "SculptingBench"
+   ]
+  }
+ }
 }

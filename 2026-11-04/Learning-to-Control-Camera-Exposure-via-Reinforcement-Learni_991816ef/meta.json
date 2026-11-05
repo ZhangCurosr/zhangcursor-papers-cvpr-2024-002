@@ -4,5 +4,31 @@
  "title": "Learning-to-Control-Camera-Exposure-via-Reinforcement-Learni",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-11-04 21:23:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/79e5e940-31b0-49a1-8f32-fdeebd0f6874.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/79e5e940-31b0-49a1-8f32-fdeebd0f6874.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:42:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动曝光控制",
+    "深度强化学习",
+    "SAC",
+    "相机参数调节",
+    "域随机化",
+    "课程学习"
+   ],
+   "field": "相机控制与计算摄影",
+   "innovations": [
+    "首个将DRL用于联合曝光参数控制的框架，实现3-5帧快速收敛",
+    "轻量向量化强度历史状态替代CNN特征，1ms CPU推理",
+    "闪烁感知+图像属性多目标奖励设计结合课程学习与域随机化"
+   ],
+   "benchmarks": [
+    "Exposure Control Dataset",
+    "SIFT特征提取(5355对图像)",
+    "YOLOv5目标检测(真实驾驶场景)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Improving-Training-Efficiency-of-Diffusion-Models-via-Multi",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-11-04 21:12:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3a58b9a2-b39f-46a3-9136-5b04158d8938.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3a58b9a2-b39f-46a3-9136-5b04158d8938.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:41:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "训练效率",
+    "多阶段架构",
+    "U-Net",
+    "时间步聚类",
+    "去噪分数匹配"
+   ],
+   "field": "扩散模型训练效率优化",
+   "innovations": [
+    "提出共享编码器+多解码器的多阶段U-Net架构，兼顾参数效率与知识共享",
+    "设计基于最优去噪器的时间步聚类算法，实现阶段内回归任务同质化划分"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CelebA 32x32",
+    "CelebA 256x256"
+   ]
+  }
+ }
 }

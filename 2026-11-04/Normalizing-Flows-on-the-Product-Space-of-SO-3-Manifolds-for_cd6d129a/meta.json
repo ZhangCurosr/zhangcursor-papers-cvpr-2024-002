@@ -4,5 +4,30 @@
  "title": "Normalizing-Flows-on-the-Product-Space-of-SO-3-Manifolds-for",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-11-04 21:15:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/16b6a6c8-1258-4796-bce6-4794083633a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/16b6a6c8-1258-4796-bce6-4794083633a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "归一化流",
+    "SO(3)流形",
+    "人体姿态建模",
+    "概率密度估计",
+    "逆运动学",
+    "Mobius变换"
+   ],
+   "field": "3D人体姿态概率建模",
+   "innovations": [
+    "提出定义在SO(3)流形乘积空间上的归一化流，支持精确归一化密度学习",
+    "引入随机置换自回归条件机制建模关节旋转联合分布",
+    "首次提供SO(3)上乘积空间人体姿态归一化联合密度并在多任务超越SOTA"
+   ],
+   "benchmarks": [
+    "AMASS",
+    "5-point evaluation"
+   ]
+  }
+ }
 }

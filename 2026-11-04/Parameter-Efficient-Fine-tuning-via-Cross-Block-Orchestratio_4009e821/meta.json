@@ -4,5 +4,32 @@
  "title": "Parameter-Efficient-Fine-tuning-via-Cross-Block-Orchestratio",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-11-04 21:01:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e24dd3e0-9a28-42e0-87c0-e4771dad6954.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e24dd3e0-9a28-42e0-87c0-e4771dad6954.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:44:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "参数高效微调",
+    "Segment Anything Model",
+    "跨块编排",
+    "超复数层",
+    "图像分割"
+   ],
+   "field": "计算机视觉-参数高效微调",
+   "innovations": [
+    "提出跨块编排机制突破隐藏马尔可夫链限制",
+    "设计块间通信模块实现参数空间全局协调",
+    "引入超复数层增强块内投影方向调整能力"
+   ],
+   "benchmarks": [
+    "ADOME",
+    "NWPU",
+    "TRCAN",
+    "COCO",
+    "SSDD"
+   ]
+  }
+ }
 }

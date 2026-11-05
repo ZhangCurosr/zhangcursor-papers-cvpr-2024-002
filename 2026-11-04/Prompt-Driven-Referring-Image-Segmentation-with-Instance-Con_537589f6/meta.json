@@ -4,5 +4,31 @@
  "title": "Prompt-Driven-Referring-Image-Segmentation-with-Instance-Con",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-11-04 20:58:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bd5d390e-313f-4ad2-a13e-9c42eba61166.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bd5d390e-313f-4ad2-a13e-9c42eba61166.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:45:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "referring image segmentation",
+    "prompt learning",
+    "CLIP",
+    "SAM",
+    "cross-modal prompting",
+    "instance contrastive learning"
+   ],
+   "field": "视觉语言理解",
+   "innovations": [
+    "提出双向Cross-Modal Prompting适配CLIP至像素级RIS任务",
+    "设计Instance Contrastive Learning增强多实例判别与多描述鲁棒性",
+    "通过prompt learning端到端桥接CLIP与SAM，生成mask/point/text三类prompt"
+   ],
+   "benchmarks": [
+    "RefCOCO",
+    "RefCOCO+",
+    "G-Ref"
+   ]
+  }
+ }
 }

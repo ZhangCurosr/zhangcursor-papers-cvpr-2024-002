@@ -4,5 +4,32 @@
  "title": "MR-VNet-Media-Restoration-using-Volterra-Networks",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-11-04 21:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/619ee282-97d8-49ca-b644-14c260d96b43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/619ee282-97d8-49ca-b644-14c260d96b43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Volterra网络",
+    "图像恢复",
+    "视频去噪",
+    "去模糊",
+    "无激活网络",
+    "高阶卷积"
+   ],
+   "field": "低级别计算机视觉",
+   "innovations": [
+    "提出MR-VNet将Volterra级数引入图像/视频恢复，用二阶卷积替代激活函数",
+    "设计LLA/LYA两种Volterra核近似策略平衡精度与复杂度",
+    "证明NAFNet是Q=1的Volterra网络特例并提供统一理论框架"
+   ],
+   "benchmarks": [
+    "GoPro去模糊",
+    "REDS视频去模糊",
+    "SIDD去噪",
+    "CRVD视频去噪"
+   ]
+  }
+ }
 }

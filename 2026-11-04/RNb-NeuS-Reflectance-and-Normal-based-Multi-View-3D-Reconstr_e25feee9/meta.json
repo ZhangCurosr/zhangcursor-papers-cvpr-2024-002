@@ -4,5 +4,29 @@
  "title": "RNb-NeuS-Reflectance-and-Normal-based-Multi-View-3D-Reconstr",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-11-04 21:27:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c1880a5f-3d0e-4557-be62-3d90f4d10ba6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c1880a5f-3d0e-4557-be62-3d90f4d10ba6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:45:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多视角光度立体",
+    "神经体积渲染",
+    "SDF重建",
+    "反射率重参数化",
+    "NeuS",
+    "法向量估计"
+   ],
+   "field": "多视角3D重建",
+   "innovations": [
+    "像素级反射率与法向量的联合重参数化，将异构输入转化为同质辐射度向量以实现单目标优化",
+    "在NeuS架构上扩展支持任意多变光照的直接SDF+反照率联合优化",
+    "首个在MVPS中显式利用反射率先验并显著改善高曲率与低可见区域重建精度的方法"
+   ],
+   "benchmarks": [
+    "DiLiGenT-MV"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "In-N-Out-Faithful-3D-GAN-Inversion-with-Volumetric-Decomposi",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-11-04 20:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/10f09160-b001-4e49-a65e-04b4a882445c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/10f09160-b001-4e49-a65e-04b4a882445c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:41:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GAN Inversion",
+    "3D-aware Generation",
+    "Neural Radiance Field",
+    "Face Editing",
+    "Out-of-Distribution",
+    "Composite Rendering",
+    "StyleGAN"
+   ],
+   "field": "3D-aware GAN Inversion and Face Editing",
+   "innovations": [
+    "提出InD/OOD双辐射场显式分解框架，通过合成体积渲染实现含分布外物体人脸的高保真3D重建",
+    "引入融合权重熵正则与潜码正则，解决重建保真度与编辑能力的权衡难题",
+    "将复合NeRF渲染思想首次引入3D GAN反演，支持语义编辑、视角合成与OOD物体移除"
+   ],
+   "benchmarks": [
+    "自建20个含浓妆/遮挡的在野人脸视频数据集",
+    "LPIPS/SSIM/PSNR/ID Similarity"
+   ]
+  }
+ }
 }

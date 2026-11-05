@@ -4,5 +4,32 @@
  "title": "Objects-as-volumes-A-stochastic-geometry-view-of-opaque-soli",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-11-04 21:19:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/473d7265-2195-4d0e-991a-be74660f61b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/473d7265-2195-4d0e-991a-be74660f61b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stochastic geometry",
+    "volumetric rendering",
+    "opaque solids",
+    "NeuS",
+    "VolSDF",
+    "reciprocity",
+    "3D reconstruction"
+   ],
+   "field": "神经辐射场与体积表示理论",
+   "innovations": [
+    "从随机几何第一性原理严格推导不透明实体的指数体积传输理论",
+    "提出空间变化各向异性衰减系数框架统一建模表面与内部行为",
+    "诊断并修正NeuS/VolSDF的互易性违反与密度项错误"
+   ],
+   "benchmarks": [
+    "DTU",
+    "BlendedMVS",
+    "NeRF Realistic Synthetic"
+   ]
+  }
+ }
 }

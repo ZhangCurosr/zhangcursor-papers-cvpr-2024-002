@@ -4,5 +4,34 @@
  "title": "One-Shot-Structure-Aware-Stylized-Image-Synthesis",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-11-04 21:16:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49fd1fb1-fc85-4d18-82d2-8772c43d82fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49fd1fb1-fc85-4d18-82d2-8772c43d82fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "one-shot stylization",
+    "diffusion model",
+    "structure preservation",
+    "style transfer",
+    "semantic latent",
+    "CLIP directional loss"
+   ],
+   "field": "图像风格化与编辑",
+   "innovations": [
+    "提出结构潜码与语义潜码分离框架实现扩散模型风格化中的结构鲁棒保留",
+    "设计轻量级结构保留网络（SPN）补偿编码过程中的结构信息损失",
+    "通过分层条件化实现内容-风格的细粒度可控混合与文本驱动操控"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "AAHQ",
+    "MetFaces",
+    "AFHQ-dog",
+    "LSUN-church",
+    "DeepFashion"
+   ]
+  }
+ }
 }

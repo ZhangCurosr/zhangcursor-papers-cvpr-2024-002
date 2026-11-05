@@ -4,5 +4,30 @@
  "title": "Open-World-Semantic-Segmentation-Including-Class-Similarity",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-11-04 21:12:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e44ffe49-9e3f-4e81-b812-59bed00e4e1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e44ffe49-9e3f-4e81-b812-59bed00e4e1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:44:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放世界语义分割",
+    "异常分割",
+    "新类别发现",
+    "对比学习",
+    "特征空间建模",
+    "类相似度"
+   ],
+   "field": "开放世界视觉感知",
+   "innovations": [
+    "双解码器架构联合优化闭世界分割与异常检测",
+    "特征损失函数约束类原型分布实现特征空间显式建模",
+    "基于高斯分布的类相似度度量无需额外训练"
+   ],
+   "benchmarks": [
+    "SegmentMeIfYouCan",
+    "BDDAnomaly"
+   ]
+  }
+ }
 }

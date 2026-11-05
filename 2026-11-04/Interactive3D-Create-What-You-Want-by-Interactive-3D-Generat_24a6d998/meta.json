@@ -4,5 +4,29 @@
  "title": "Interactive3D-Create-What-You-Want-by-Interactive-3D-Generat",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-11-04 21:19:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f66d6ea9-0b2d-4359-8408-1307d9a9215f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f66d6ea9-0b2d-4359-8408-1307d9a9215f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:42:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Interactive 3D Generation",
+    "Gaussian Splatting",
+    "InstantNGP",
+    "Score Distillation",
+    "3D Editing",
+    "Text-to-3D",
+    "Hash Refinement"
+   ],
+   "field": "3D 生成与编辑",
+   "innovations": [
+    "两阶段异构表示（Gaussian Splatting + InstantNGP）实现可交互且高质量的 3D 生成",
+    "局部专属哈希与残差 MLP 解决多区域同时精炼时的特征冲突问题"
+   ],
+   "benchmarks": [
+    "CLIP R-Precision on Cap3D-derived 50 prompts"
+   ]
+  }
+ }
 }

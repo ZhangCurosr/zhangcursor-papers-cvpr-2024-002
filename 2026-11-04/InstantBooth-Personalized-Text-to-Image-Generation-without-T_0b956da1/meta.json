@@ -4,5 +4,32 @@
  "title": "InstantBooth-Personalized-Text-to-Image-Generation-without-T",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-11-04 21:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/697bcfa0-fd36-4da6-b926-d0ed65465c3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/697bcfa0-fd36-4da6-b926-d0ed65465c3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:41:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化文本到图像生成",
+    "无需微调",
+    "扩散模型",
+    "适配器层",
+    "概念编码",
+    "身份保持"
+   ],
+   "field": "个性化图像生成",
+   "innovations": [
+    "提出无需测试时微调的个性化生成框架，推理速度比DreamBooth快100倍",
+    "设计全局概念嵌入+局部补丁特征的双路编码器结合门控适配器层",
+    "引入概念Token归一化技术缓解语言遗忘问题"
+   ],
+   "benchmarks": [
+    "PPR10K",
+    "CLIP Alignment",
+    "Face Similarity (VGGFace2)",
+    "User Study"
+   ]
+  }
+ }
 }

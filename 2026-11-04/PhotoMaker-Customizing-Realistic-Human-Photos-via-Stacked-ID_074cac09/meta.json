@@ -4,5 +4,35 @@
  "title": "PhotoMaker-Customizing-Realistic-Human-Photos-via-Stacked-ID",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-11-04 21:20:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/48c49f6b-10c6-4551-8bdf-7f7cdd1869de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/48c49f6b-10c6-4551-8bdf-7f7cdd1869de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:45:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化生成",
+    "堆叠ID嵌入",
+    "文本到图像",
+    "免微调",
+    "SDXL",
+    "身份混合"
+   ],
+   "field": "个性化文本到图像生成",
+   "innovations": [
+    "提出堆叠ID嵌入机制，将多张同ID图像编码为统一语义表示，实现免微调高效个性化生成",
+    "设计类别词替换融合策略，无需修改网络架构即可通过交叉注意力自适应整合ID与文本信息"
+   ],
+   "benchmarks": [
+    "Mystyle",
+    "自收集25个未见ID",
+    "DINO",
+    "CLIP-I",
+    "CLIP-T",
+    "Face Similarity",
+    "Face Diversity",
+    "FID"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "MANUS-Markerless-Grasp-Capture-using-Articulated-3D-Gaussian",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-11-04 21:03:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64ffdea5-2adb-4d9c-98d0-883925354df7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64ffdea5-2adb-4d9c-98d0-883925354df7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:42:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hand-object grasp capture",
+    "3D Gaussian splatting",
+    "articulated hand modeling",
+    "contact estimation",
+    "multi-view reconstruction",
+    "markerless motion capture"
+   ],
+   "field": "手物交互与接触估计",
+   "innovations": [
+    "将3D Gaussian Splatting扩展至articulated手部，实现高效接触估计",
+    "提出网格权重skin weighting技巧解决Gaussian蒙皮训练不匹配问题",
+    "构建50+相机7M帧多视角手物抓取数据集并提供湿油漆接触真值评估"
+   ],
+   "benchmarks": [
+    "MANUS-Grasps (湿油漆接触评估)",
+    "InterHand2.6M (视觉质量评测)"
+   ]
+  }
+ }
 }

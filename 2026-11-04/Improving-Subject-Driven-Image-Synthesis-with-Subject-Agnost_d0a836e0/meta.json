@@ -4,5 +4,29 @@
  "title": "Improving-Subject-Driven-Image-Synthesis-with-Subject-Agnost",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-11-04 20:59:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9a9c3b75-2ac1-45ec-a5c5-a39a6f66c590.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9a9c3b75-2ac1-45ec-a5c5-a39a6f66c590.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:41:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主题驱动图像合成",
+    "分类器无监督引导",
+    "个性化生成",
+    "扩散模型",
+    "文字-主题对齐"
+   ],
+   "field": "主题驱动文本到图像生成",
+   "innovations": [
+    "提出SAG推理框架，通过构建主题无关条件解决文字提示被忽视问题，无需修改训练",
+    "设计时间变化双分类器无监督引导(DCFG)，早期压制主题、后期恢复，平衡结构构建与细节细化"
+   ],
+   "benchmarks": [
+    "CLIP-T",
+    "CLIP-I",
+    "DINO"
+   ]
+  }
+ }
 }

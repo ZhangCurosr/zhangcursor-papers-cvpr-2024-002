@@ -4,5 +4,33 @@
  "title": "Neural-Redshift-Random-Networks-are-not-Random-Functions",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-11-04 21:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2378b9a7-c40b-48b3-b6ef-9b83330c27ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2378b9a7-c40b-48b3-b6ef-9b83330c27ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural redshift",
+    "inductive bias",
+    "simplicity bias",
+    "random networks",
+    "activation functions",
+    "generalization",
+    "Fourier complexity",
+    "transformers"
+   ],
+   "field": "神经网络理论与泛化分析",
+   "innovations": [
+    "提出Neural Redshift理论，证明随机权重网络的泛化偏向源于架构参数空间的固有归纳偏置而非梯度下降",
+    "发现ReLU/残差连接/层归一化是关键组件，赋予网络深度与权重幅度无关的简单性偏向",
+    "证明可通过架构设计连续调制网络复杂度偏向，在高频任务与捷径学习中实现可控泛化"
+   ],
+   "benchmarks": [
+    "Modulo Arithmetic Classification",
+    "Colored-MNIST Regression",
+    "GPT-2 Sequence Generation"
+   ]
+  }
+ }
 }

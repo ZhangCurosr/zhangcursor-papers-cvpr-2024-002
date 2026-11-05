@@ -4,5 +4,30 @@
  "title": "Multi-scale-Dynamic-and-Hierarchical-Relationship-Modeling-f",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-11-04 21:15:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b4a7dbca-6ba9-45f4-99a8-10af1155acf8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b4a7dbca-6ba9-45f4-99a8-10af1155acf8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:43:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "facial action units",
+    "action unit recognition",
+    "multi-scale temporal differencing",
+    "hierarchical relationship modeling",
+    "spatio-temporal modeling",
+    "graph attention network"
+   ],
+   "field": "面部动作单元识别",
+   "innovations": [
+    "多尺度自适应面部动态建模模块，首次区分不同AU激活的尺度异质性",
+    "两阶段层级时空关系建模，分别处理局部区域与跨区域AU依赖",
+    "在BP4D和DISFA上取得面部动作单元识别新SOTA"
+   ],
+   "benchmarks": [
+    "BP4D",
+    "DISFA"
+   ]
+  }
+ }
 }

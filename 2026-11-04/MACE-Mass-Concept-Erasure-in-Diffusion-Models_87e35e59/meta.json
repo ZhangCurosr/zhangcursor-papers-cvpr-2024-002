@@ -4,5 +4,33 @@
  "title": "MACE-Mass-Concept-Erasure-in-Diffusion-Models",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-11-04 21:09:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a9950a89-cc4e-4dd1-b1a5-f19e203407de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a9950a89-cc4e-4dd1-b1a5-f19e203407de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:42:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "concept erasure",
+    "LoRA",
+    "cross-attention editing",
+    "generative model safety",
+    "model editing",
+    "mass concept removal"
+   ],
+   "field": "生成模型安全与编辑",
+   "innovations": [
+    "闭式交叉注意力精炼消除概念信息残留",
+    "每概念独立LoRA模块配合闭式融合避免干扰",
+    "基于SSB理论的概念聚焦重要性采样提升特异性"
+   ],
+   "benchmarks": [
+    "CIFAR-10 object erasure",
+    "200-celebrity erasure",
+    "I2P explicit content",
+    "Artistic style erasure (100 styles)"
+   ]
+  }
+ }
 }
